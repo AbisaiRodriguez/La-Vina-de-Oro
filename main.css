@@ -1,0 +1,70 @@
+body {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 1.5rem;
+}
+
+.top-header {
+background-color: rgb(80, 122, 58);
+font-size: 16px;
+}
+
+.address a {
+    text-decoration: none;
+    color: black;
+}
+
+.fab {
+    font-size: 24px;
+    float: right;
+    padding: 10px;
+}
+
+.fa-facebook-square{
+color: #2f55a4;
+}
+
+.fa-yelp{
+    color: #c41200;
+}
+
+.navbar-dark .navbar-brand {
+    color: black;
+    text-shadow: 1px ;
+}
+
+.navbar-dark {
+    color: black
+}
+
+.navbar-brand {
+    font-size: 2.25rem;
+    text-shadow: -1px 1px 0 rgb(80, 122, 58),
+				  3px 1px 0 rgb(80, 122, 58),
+				 3px -1px 0 rgb(80, 122, 58),
+				-1px -1px 0 rgb(80, 122, 58);
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+   color: black;
+    text-shadow: -1px 1px 0 rgb(80, 122, 58),
+				  3px 1px 0 rgb(80, 122, 58),
+				 3px -1px 0 rgb(80, 122, 58),
+				-1px -1px 0 rgb(80, 122, 58);
+}
+.navbar-dark .navbar-toggler {
+    color: rgba(0,0,0);
+    border-color: rgb(255,255,255);
+}
+
+.jumbotron {
+    background-color: rgb(80, 122, 58);
+}
+
+#navbar {
+    height: 270px;
+    background: url("/imgs/bricks.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+}
