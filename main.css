@@ -13,7 +13,11 @@ font-size: 16px;
     color: black;
 }
 
-.fab {
+span a {
+    color: rgb(80, 122, 58);
+}
+
+#header .fab {
     font-size: 24px;
     float: right;
     padding: 10px;
@@ -63,7 +67,9 @@ color: #2f55a4;
 }
 
 .carousel-inner {
+   
     width: 50%;
+
 }
 .carousel-item {
     height: 400px;
@@ -74,8 +80,22 @@ color: #2f55a4;
       object-fit:cover;
       top: 0;
       left: 0;
-      min-height: 500px;
+      min-height: 400px;
   }
+
+  .card {
+    margin: 5rem auto;
+    background: black;
+    color: rgb(80, 122, 58);
+    border-radius: 15%
+}
+
+#footer {
+    max-height: 500px;
+    height: 400px;
+    background: rgb(80, 122, 58);
+}
+
 #navbar {
     height: 270px;
     background: url("/imgs/bricks.jpg");
@@ -93,3 +113,24 @@ color: #2f55a4;
     background-position: center; 
     background-size: cover;
 }
+
+@media screen and (max-width: 460px) {
+    .navbar-brand {
+        font-size: 25px;
+        text-shadow: -1px 1px 0 rgb(80, 122, 58),
+                      3px 1px 0 rgb(80, 122, 58),
+                     3px -1px 0 rgb(80, 122, 58),
+                    -1px -1px 0 rgb(80, 122, 58);
+    }
+
+    .display-4{
+        font-size: 1.3rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+
+    .lead{
+        font-size: 1rem;
+        font-weight: 300;
+    }
+  }
