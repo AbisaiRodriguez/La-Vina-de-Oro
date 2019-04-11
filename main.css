@@ -32,8 +32,9 @@ color: #2f55a4;
     text-shadow: 1px ;
 }
 
-.navbar-dark {
-    color: black
+.custom-toggler{
+    background: rgb(80, 122, 58);
+    border-color: black;
 }
 
 .navbar-brand {
@@ -53,15 +54,39 @@ color: #2f55a4;
 }
 .navbar-dark .navbar-toggler {
     color: rgba(0,0,0);
-    border-color: rgb(255,255,255);
+    border: 2px solid black;
 }
 
 .jumbotron {
     background-color: rgb(80, 122, 58);
+    margin: 0;
 }
 
+.carousel-inner {
+    width: 50%;
+}
+.carousel-item {
+    height: 400px;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 0;
+      min-height: 500px;
+  }
 #navbar {
     height: 270px;
+    background: url("/imgs/bricks.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+}
+
+#slideShow {
+    background: rgb(80, 122, 58);
     background: url("/imgs/bricks.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
