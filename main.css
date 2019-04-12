@@ -2,19 +2,32 @@ body {
     font-family: 'Frank Ruhl Libre', serif;
     font-size: 1.5rem;
 }
+#navbar h4 {
+    font-size: 4.0rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFDF00;
+}
 
 .top-header {
-background-color: rgb(80, 122, 58);
+/* background-color: rgb(80, 122, 58); */
+background-color: #363537;
 font-size: 16px;
 }
 
 .address a {
+    color: white;
     text-decoration: none;
-    color: black;
+}
+
+strong {
+    color: white;
 }
 
 span a {
-    color: rgb(80, 122, 58);
+    color: white;
+    color: inherit;
+    text-decoration: none;
 }
 
 #header .fab {
@@ -32,72 +45,64 @@ color: #2f55a4;
 }
 
 .navbar-dark .navbar-brand {
-    color: black;
-    text-shadow: 1px ;
+    color: #FFDF00;
+    text-shadow: -1px 3px 0 rgb(122, 19, 19),
+    3px 1px 0 rgb(122, 19, 19),
+   3px -1px 0 rgb(122, 19, 19),
+  -1px -1px 0 rgb(122, 19, 19);
 }
 
 .custom-toggler{
-    background: rgb(80, 122, 58);
-    border-color: black;
+    background: #363537;
+    border-color: white;
 }
 
-.navbar-brand {
-    font-size: 2.25rem;
-    text-shadow: -1px 1px 0 rgb(80, 122, 58),
-				  3px 1px 0 rgb(80, 122, 58),
-				 3px -1px 0 rgb(80, 122, 58),
-				-1px -1px 0 rgb(80, 122, 58);
-}
+/* .navbar-brand {
+    text-shadow: -1px 3px 0 rgb(122, 19, 19),
+				  3px 1px 0 rgb(122, 19, 19),
+				 3px -1px 0 rgb(122, 19, 19),
+				-1px -1px 0 rgb(122, 19, 19);
+} */
 
-.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-   color: black;
-    text-shadow: -1px 1px 0 rgb(80, 122, 58),
-				  3px 1px 0 rgb(80, 122, 58),
-				 3px -1px 0 rgb(80, 122, 58),
-				-1px -1px 0 rgb(80, 122, 58);
-}
 .navbar-dark .navbar-toggler {
     color: rgba(0,0,0);
     border: 2px solid black;
 }
 
-.jumbotron {
-    background-color: rgb(80, 122, 58);
-    margin: 0;
-}
 
-.carousel-inner {
-   
-    width: 50%;
-
-}
-.carousel-item {
-    height: 400px;
-  }
-  
-  .carousel-item img {
-      position: absolute;
-      object-fit:cover;
-      top: 0;
-      left: 0;
-      min-height: 400px;
-  }
-
-  .card {
+.card {
     margin: 5rem auto;
-    background: black;
-    color: rgb(80, 122, 58);
+    background: #363537;
+    color: white;
     border-radius: 15%
 }
 
+.carousel-item img {
+    height: 440px;
+}
+
+.carousel-inner{
+    width:100%;
+    height: 440px !important;
+  }
+
+.jumbotron{
+    color: white;
+    background-color: #363537;
+    height: 440px;
+    margin-bottom: 0;
+}
+
 #footer {
-    max-height: 500px;
-    height: 400px;
-    background: rgb(80, 122, 58);
+    height: 100%;
+    background: url("/imgs/bricks.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
 }
 
 #navbar {
-    height: 270px;
     background: url("/imgs/bricks.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -106,7 +111,6 @@ color: #2f55a4;
 }
 
 #slideShow {
-    background: rgb(80, 122, 58);
     background: url("/imgs/bricks.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -117,10 +121,11 @@ color: #2f55a4;
 @media screen and (max-width: 460px) {
     .navbar-brand {
         font-size: 25px;
-        text-shadow: -1px 1px 0 rgb(80, 122, 58),
-                      3px 1px 0 rgb(80, 122, 58),
-                     3px -1px 0 rgb(80, 122, 58),
-                    -1px -1px 0 rgb(80, 122, 58);
+        color: #FFDF00;
+    text-shadow: -1px 3px 0 rgb(122, 19, 19),
+    3px 1px 0 rgb(122, 19, 19),
+   3px -1px 0 rgb(122, 19, 19),
+  -1px -1px 0 rgb(122, 19, 19);
     }
 
     .display-4{
@@ -134,3 +139,15 @@ color: #2f55a4;
         font-weight: 300;
     }
   }
+
+  a:hover 
+{
+     color: white; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+.navbar-dark .navbar-nav .active>.nav-link:hover {
+    color: #FFDF00;
+    border-bottom: 3px solid #FFDF00
+}
