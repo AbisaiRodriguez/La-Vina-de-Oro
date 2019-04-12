@@ -151,3 +151,7 @@ color: #2f55a4;
     color: #FFDF00;
     border-bottom: 3px solid #FFDF00
 }
+
+hr {
+    border-top: 2px solid #FFDF00;
+}
