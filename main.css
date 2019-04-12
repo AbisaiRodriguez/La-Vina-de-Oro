@@ -119,7 +119,7 @@ color: #2f55a4;
 }
 
 @media screen and (max-width: 460px) {
-    .navbar-brand {
+    #navbar h4 {
         font-size: 25px;
         color: #FFDF00;
     text-shadow: -1px 3px 0 rgb(122, 19, 19),
