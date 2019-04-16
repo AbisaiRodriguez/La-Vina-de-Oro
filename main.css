@@ -102,7 +102,7 @@ color: #2f55a4;
 
 #footer {
     height: 100%;
-    background: url("/imgs/bricks.jpg");
+    background: url("imgs/bricks.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -110,7 +110,7 @@ color: #2f55a4;
 }
 
 #navbar {
-    background: url("/imgs/bricks.jpg");
+    background: url("imgs/bricks.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -118,7 +118,7 @@ color: #2f55a4;
 }
 
 #slideShow {
-    background: url("/imgs/bricks.jpg");
+    background: url("imgs/bricks.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -126,7 +126,7 @@ color: #2f55a4;
 }
 
 #contactUs {
-    background: url("/imgs/bricks.jpg");
+    background: url("imgs/bricks.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
